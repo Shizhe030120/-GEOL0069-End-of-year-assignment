@@ -116,9 +116,9 @@ model = CombinedNet(num_classes=10)  # Adjust the number of classes according to
 
 Our training results show the model's performance across different epochs:
 
-![训练精确度和损失曲线](images/metrics_curve.png)
-![验证集上的分类指标](images/classification_report.png)
-![混淆矩阵](images/confusion_matrix.png)
+![训练精确度和损失曲线](metrics_curve.png)
+![验证集上的分类指标](classification_report.png)
+![混淆矩阵](confusion_matrix.png)
 
 ### Inference Usage
 ```python
@@ -137,9 +137,9 @@ model.eval()
 
 Visual results of our model's inference on real-world scenarios:
 
-![可视化1](images/River_1_prediction.png)
-![可视化2](images/Forest_2_prediction.png)
-![可视化3](images/AnnualCrop_3_prediction.png)
+![可视化1](River_1_prediction.png)
+![可视化2](Forest_2_prediction.png)
+![可视化3](AnnualCrop_3_prediction.png)
 
 ## Conclusion
 
